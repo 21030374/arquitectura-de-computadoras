@@ -1,45 +1,21 @@
-body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    	font-family: 'Arial';
+    	background-color: #000000;
+	color: #ffffff;
 }
 
-/* Add your custom styles below */
-/* For example: */
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+img {
+	width: 320px;
+	border: 10px solid #777777;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+p {
+	width: 340px;
+	background-color: #777777;
 }
 
-nav {
-    background-color: #eee;
-    padding: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #333;
-    margin-right: 15px;
-}
-
-section {
-    padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+h1 {
+	color: #ffffff;
+	width: 340px;
+	background-color: #777777;
 }
