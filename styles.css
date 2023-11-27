@@ -1,21 +1,42 @@
 body {
-    	font-family: 'Arial';
-    	background-color: #000000;
-	color: #ffffff;
+    	font-family: verdana,serif,'Arial';
+    	background-color: #0f380f;
+	color: #9bbc0f;
 }
 
 img {
-	width: 320px;
-	border: 10px solid #777777;
+	width: 340px;
+	border: 10px solid #306230;
+	border-radius: 10px;
 }
 
 p {
 	width: 340px;
-	background-color: #777777;
+	background-color: #306230;
+	border-radius: 10px;
+	border: 10px solid #306230;
 }
 
 h1 {
-	color: #ffffff;
+	color: #9bbc0f;
 	width: 340px;
-	background-color: #777777;
+	background-color: #306230;
+	border-radius: 10px;
+	border: 10px solid #306230;
+}
+
+h2 {
+	color: #9bbc0f;
+	width: 320px;
+	background-color: #306230;
+	border-radius: 10px;
+	border: 10px solid #306230;
+}
+
+ul {
+	color: #9bbc0f;
+	width: 340px;
+	background-color: #306230;
+	border-radius: 10px;
+	border: 10px solid #306230;
 }
