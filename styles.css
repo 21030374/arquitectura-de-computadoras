@@ -1,42 +1,51 @@
 body {
-    	font-family: verdana,serif,'Arial';
-    	background-color: #0f380f;
-	color: #9bbc0f;
+    font-family: 'Verdana', 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Cambiado a un gris claro para mayor contraste */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 img {
-	width: 340px;
-	border: 10px solid #306230;
-	border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    border: 10px solid #4caf50; /* Verde más oscuro para resaltar */
+    border-radius: 10px;
+    margin-bottom: 20px; /* Espacio inferior entre la imagen y otros elementos */
 }
 
-p {
-	width: 340px;
-	background-color: #306230;
-	border-radius: 10px;
-	border: 10px solid #306230;
+p, h1, h2, ul {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto 20px; /* Agregado espacio inferior */
+    padding: 15px;
+    background-color: #4caf50; /* Verde principal */
+    border-radius: 10px;
+    border: 10px solid #4caf50; /* Borde verde para mayor consistencia */
+    box-sizing: border-box;
 }
 
-h1 {
-	color: #9bbc0f;
-	width: 340px;
-	background-color: #306230;
-	border-radius: 10px;
-	border: 10px solid #306230;
-}
-
-h2 {
-	color: #9bbc0f;
-	width: 320px;
-	background-color: #306230;
-	border-radius: 10px;
-	border: 10px solid #306230;
+h1, h2 {
+    color: #fff; /* Texto blanco para mayor contraste */
 }
 
 ul {
-	color: #9bbc0f;
-	width: 340px;
-	background-color: #306230;
-	border-radius: 10px;
-	border: 10px solid #306230;
+    list-style: none;
+    padding: 0;
+}
+
+.escuela-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.escuela-logo {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    border: 5px solid #4caf50; /* Borde verde para resaltar el logo */
 }
